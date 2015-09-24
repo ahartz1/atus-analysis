@@ -1,34 +1,10 @@
-# Wasting Time
+# Wasting Time: Analyzing the ATUS Dataset
 
 ## Description
 
 Use the U.S. Department of Labor's data on Americans' time use for research and analysis.
 
-## Tasks
-```markdown
-* [ ] Blank slate
-  * [ ] Create a GitHub repo called `atus-analysis`
-  * [ ] Copy all the files from this repo into it
-  * [ ] Set up your requirements/virtual environment
-  * [ ] Download the 2014 ATUS data using the `download_data.sh` script
-* [ ] Normal mode
-  * [ ] Gain an understanding of the data that is available
-  * [ ] Identify areas you want to compare/focus on
-  * [ ] Load relevant data into a notebook
-  * [ ] Analyze it, look for correlations, comparisons, etc.
-  * [ ] Present your findings in a polished notebook file (you may want to have a _scratch_ notebook for exploring, and a _final_ notebook for presentation)
-
-```
-
 ## Objectives
-
-### Learning Objectives
-
-After completing this assignment, you should understand:
-
-* How to use public data for analysis
-* How to translate data from CSVs to relational databases
-* How to publish your own data analysis as a notebook
 
 ### Performance Objectives
 
@@ -66,7 +42,24 @@ You will download the 2014 files and use these to do analysis. The questions you
 
 Your final analysis should be in the form of an IPython Notebook with both narrative analysis and supporting charts. Any supporting code should be in normal Python files.
 
+## To View This Notebook
+Just click on the `atus-analysis.ipynb` file above.
 
+## To Run This Notebook
+### System Requirements / Installation
+
+* You will need to have **python&nbsp;3** installed on your machine. See [python's site](https://www.python.org/) for details.
+
+* Clone this repo onto your machine.
+
+* You will need to make sure that you have a virtual environment running in the folder that you intend to work from. [See this site for details if you're not familiar.](http://docs.python-guide.org/en/latest/dev/virtualenvs/) **Complete this step before attempting the below.**
+
+* In your command-line program (such as Terminal on Mac&nbsp;OS&nbsp;X), navigate into the newly created repo. By default, this will be called `atus-analysis`. Install the requirements file by runnning **`pip install -r requirements.txt`**.
+
+### Opening the Notebook
+* Using a command-line program, navigate to the folder containing the downloaded file and run the following line: **`ipython notebook atus-analysis.ipynb`**
+
+* **Note:** This will open in a browser window and take over the command-line program's window until you close out of IPython Notebook. If you have closed your browser window, but your command line is still running the notebook, kill the process by pressing `Ctrl+C` or quitting the program entirely.
 
 ## Additional Resources
 
