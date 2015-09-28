@@ -22,7 +22,7 @@ Just click on the `atus-analysis.ipynb` file above.
 
 * In your command-line program (such as Terminal on Mac&nbsp;OS&nbsp;X), navigate into the newly created repo. By default, this will be called `atus-analysis`. Install the requirements file by runnning **`pip install -r requirements.txt`**.
 
-* You will need to download the data files by running the `download_data.sh` script. (Enter and run the following line at your command prompt: `./download_data.sh`)
+* You will need to download the data files by running the `download_data.sh` script. (Enter and run the following line at your command prompt: **`./download_data.sh`**)
 
 ### Opening the Notebook
 * Using a command-line program, navigate to the folder containing the downloaded file and run the following line: **`ipython notebook atus-analysis.ipynb`**
@@ -32,4 +32,4 @@ Just click on the `atus-analysis.ipynb` file above.
 ## Additional Resources
 
 * [How to use ATUS microdata files](http://www.bls.gov/tus/howto.htm)
-* [ATUS Coding Lexicon - you will need this](http://www.bls.gov/tus/lexicons.htm)
+* [ATUS Coding Lexicon](http://www.bls.gov/tus/lexicons.htm)
