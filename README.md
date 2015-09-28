@@ -6,6 +6,7 @@ The U.S. Bureau of Labor Statistics publishes yearly data about Americans' use o
 
 This data is used to find out information like how many hours the average person spends per day doing household activities. You can see [the 2014 survey results](http://www.bls.gov/news.release/atus.nr0.htm) for more examples.
 
+### Areas of Analysis
 I have analyzed the respondents' laundry activities, kitchen and food clean-up activities, and number of hours worked per day and per week. I've broken these areas down into more specific sub-groups to get at data I considered to be interesting. I also looked at motorsport spectators and participants, but the pool was too small to provide meaningful data.
 
 ## To View This Notebook
